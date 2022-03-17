@@ -1,0 +1,8 @@
+https://dev.to/sharman/laravel-8-passport-oauth-20-1kb5
+https://dev.to/techtoolindia/how-to-login-with-google-in-laravel-8-2d1i
+
+composer require laravel/passport
+php artisan migrate
+php artisan passport:install
+
+composer require laravel/socialite
