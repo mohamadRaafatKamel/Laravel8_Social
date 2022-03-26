@@ -17,7 +17,7 @@ class UsersImport implements ToModel, WithStartRow, WithCustomCsvSettings
     public function getCsvSettings(): array
     {
         return [
-            'delimiter' => ','
+            'delimiter' => ';'
         ];
     }
     /**
@@ -33,6 +33,6 @@ class UsersImport implements ToModel, WithStartRow, WithCustomCsvSettings
         //    // 'password' => \Hash::make($row[2]),
         // ]);
         print_r($row);
-        
+
     }
 } 
